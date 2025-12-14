@@ -21,3 +21,6 @@ docker run -d \
 --restart=always  \
 nginx
 ```
+
+### WebDAV in NGINX
+nginx 自带一个 dav 模块，可以用于网页浏览。但不支持 dav client 的协议访问。https://github.com/arut/nginx-dav-ext-module.git 是一个dav扩展模块，需要重新编译nginx。
